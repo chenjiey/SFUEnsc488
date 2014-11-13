@@ -1,0 +1,33 @@
+﻿Build started 11/11/2014 8:11:58 PM.
+     1>Project "H:\ENSC488\workspace\myFirstProject\myFirstProject\myFirstProject.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\myFirstProject.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IH:\ENSC488\workspace\myFirstProject\myFirstProject /IC:\OpenHaptics\Academic\3.1\utilities\include /IC:\OpenHaptics\Academic\3.1\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt firstTutorial.cpp
+         firstTutorial.cpp
+     1>h:\ensc488\workspace\myfirstproject\myfirstproject\firsttutorial.cpp(250): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>h:\ensc488\workspace\myfirstproject\myfirstproject\firsttutorial.cpp(282): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>h:\ensc488\workspace\myfirstproject\myfirstproject\firsttutorial.cpp(414): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>h:\ensc488\workspace\myfirstproject\myfirstproject\firsttutorial.cpp(483): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\ENSC488\workspace\myFirstProject\Debug\myFirstProject.exe" /NOLOGO /LIBPATH:C:\OpenHaptics\Academic\3.1\lib\Win32\DebugAcademicEdition /LIBPATH:C:\OpenHaptics\Academic\3.1\utilities\lib\Win32\DebugAcademicEdition hd.lib hdu.lib opengl32.lib glu32.lib glui32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\myFirstProject.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\ENSC488\workspace\myFirstProject\Debug\myFirstProject.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\ENSC488\workspace\myFirstProject\Debug\myFirstProject.lib" /MACHINE:X86 Debug\firstTutorial.obj
+         LINK : H:\ENSC488\workspace\myFirstProject\Debug\myFirstProject.exe not found or not built by the last incremental link; performing full link
+     1>hdu.lib(hduError.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'hdu.lib(hduError.obj)' or at 'H:\ENSC488\workspace\myFirstProject\Debug\vc100.pdb'; linking object as if no debug info
+     1>hdu.lib(hduDecompose.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'hdu.lib(hduDecompose.obj)' or at 'H:\ENSC488\workspace\myFirstProject\Debug\vc100.pdb'; linking object as if no debug info
+     1>hdu.lib(hduMatrix.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'hdu.lib(hduMatrix.obj)' or at 'H:\ENSC488\workspace\myFirstProject\Debug\vc100.pdb'; linking object as if no debug info
+     1>hdu.lib(hduQuaternion.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'hdu.lib(hduQuaternion.obj)' or at 'H:\ENSC488\workspace\myFirstProject\Debug\vc100.pdb'; linking object as if no debug info
+         myFirstProject.vcxproj -> H:\ENSC488\workspace\myFirstProject\Debug\myFirstProject.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"H:\ENSC488\workspace\myFirstProject\Debug\myFirstProject.exe;#1" /manifest Debug\myFirstProject.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\myFirstProject.unsuccessfulbuild".
+         Touching "Debug\myFirstProject.lastbuildstate".
+     1>Done Building Project "H:\ENSC488\workspace\myFirstProject\myFirstProject\myFirstProject.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.49
